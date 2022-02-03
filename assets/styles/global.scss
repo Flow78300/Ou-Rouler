@@ -1,0 +1,29 @@
+
+
+$primary: #4088ee;
+$secondary: #0861cd;
+$gray: #999897;
+$black: #000;
+$white: #fff;
+$success: #3ED12A;
+$danger: #D7090C;
+$wild-color: #ff6c71;
+$light: #fffbfb;
+$profile: rgb(231, 239, 252);
+$background-color: #E7EFFC;
+$border-radius: .5rem;
+$box-shadow: 0 .25rem .5rem rgba(#000, .35);
+$btn-padding-y: .3rem;
+$btn-padding-x: .8rem;
+$btn-font-size: 1rem;
+
+$theme-colors: (
+        'primary': $primary,
+        'secondary': $secondary,
+        'gray': $gray,
+        'black': $black,
+        'white': $white,
+        'success': $success,
+        'danger' : $danger,
+        'background-color': $background-color,
+);

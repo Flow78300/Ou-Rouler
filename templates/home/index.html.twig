@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <div class="card-introduction border-success mx-auto m-5">
+            <div class="card-body">
+                <p class="card-text">Où roulez est une application qui vous permet de trouvez un
+                    roulage moto sur circuit en regroupant différents organisateurs .
+                    Cliquez simplement sur un organisteur dans la liste ci dessous
+                    pour voir ses roulages.
+                    Une fois votre journée trouvée vous serez automatiquement
+                    redirigé vers le site de l’organisateur ou vous pourrez reserver
+                    votre journée piste!
+
+                </p>
+                <ul class="list-group m-5 justify-content-center">
+                   <img src="{{ asset('build/images/logo-bmc.svg') }}" href=""
+                        width="150" height="100" class="mx-auto d-block">
+                   <img src="{{ asset('build/images/logo-activbike.png') }}" width="180" height="100"
+                        class="mx-auto d-block mt-5">
+                   <img src="{{ asset('build/images/logobox23.png') }} "width="200" height="100"
+                        class="mx-auto d-block mt-5">
+                </ul>
+            </div>
+       </div>
+    </div>
+{% endblock %}
